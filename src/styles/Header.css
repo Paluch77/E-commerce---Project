@@ -1,0 +1,115 @@
+.header {
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.header--img {
+  width: 8rem;
+  max-width: 8rem;
+  height: auto;
+  margin-left: 5rem;
+}
+
+.header__searchBar {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  background-color: lightgrey;
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: grey;
+}
+
+.searchBar--bar {
+  border: none;
+  height: 90%;
+  width: 100%;
+}
+.header--border {
+  border-left: 1px solid grey;
+  height: 100%;
+  margin: 0 10px;
+}
+.searchBar--bar,
+textarea {
+  background-color: lightgrey;
+  color: grey;
+  border: none;
+}
+
+.searchBar--bar,
+::placeholder {
+  font-size: 1rem;
+  color: grey;
+}
+
+.searchBar--choice {
+  margin: 0 0.5rem;
+
+  width: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: left;
+}
+
+.triangle-bottom {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 5px 0 5px;
+  border-color: grey transparent transparent transparent;
+}
+
+.choice--dropdown {
+  background-color: white;
+  position: absolute;
+  left: -999rem;
+  top: 4.4rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+  justify-content: flex-start;
+  padding: 0.5rem;
+  color: black;
+  border-radius: 5px;
+  line-height: 0.5;
+}
+.dropdown--option {
+  display: flex;
+  padding: 1rem 0.5rem;
+  max-width: 100%;
+  /* background-color: blue; */
+  margin: 0;
+  transition: all 0.5s;
+}
+.dropdown--option:hover {
+  background-color: lightgrey;
+  border-radius: 2px;
+}
+
+.header--buttons {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.button--sell {
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 0.4rem;
+  color: white;
+  background-color: #167175;
+  transition: all 0.5s;
+}
+.button--sell:hover {
+  border: 1px solid #167175;
+  color: #167175;
+  background-color: white;
+}

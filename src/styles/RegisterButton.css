@@ -1,0 +1,69 @@
+.button--register {
+  border: 1px solid #167175;
+  color: #167175;
+  padding: 0.4rem;
+  border-radius: 5px;
+  font-size: 13px;
+  margin: 0 0.5rem;
+  transition: all 0.5s;
+}
+.button--register:hover {
+  color: white;
+  background-color: #167175;
+}
+.register--blur {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+  backdrop-filter: blur(0px) opacity(0);
+}
+.show {
+  display: block;
+  backdrop-filter: blur(10px) opacity(1);
+}
+.register--window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 30%;
+  height: 40%;
+  background-color: white;
+  box-shadow: 0px 0px 12px 0px rgba(66, 68, 90, 0.28);
+  border-radius: 5px;
+}
+.facebook--button,
+.google--button,
+.apple--button {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0;
+  width: 90%;
+  margin: 0.5rem 0;
+}
+
+.register--window img {
+  width: 20px;
+  padding-right: 0.2rem;
+}
+
+.email--title {
+  margin-top: 1rem;
+}
+.login--title {
+  margin: 0.2rem 0;
+}
+
+.login--button,
+.email--button {
+  color: #167175;
+}
