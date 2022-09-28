@@ -1,10 +1,10 @@
-import React from "react";
+import { useParams } from "react";
 import "../styles/Product.css";
 import { Link } from "react-router-dom";
 
 function Product({ product }) {
   return (
-    <Link className="dupa" to={"product/" + product.title}>
+    <Link className="dupa" to={"product/" + product.id}>
       <div className="product" key={product.id}>
         <header className="product__header">
           <img

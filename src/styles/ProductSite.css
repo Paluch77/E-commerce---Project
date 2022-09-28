@@ -1,0 +1,143 @@
+.product__background {
+  background-color: rgb(237, 237, 237);
+  height: 100vh;
+  position: fixed;
+}
+
+.product__info {
+  background-color: white;
+  max-width: 90%;
+  width: 100%;
+  box-shadow: 0px 0px 12px 0px rgba(66, 68, 90, 0.28);
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  border-radius: 5px;
+}
+
+.product__leftside {
+  max-width: 70%;
+  width: 100%;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 0px rgba(66, 68, 90, 0.28);
+  margin: 1rem 0rem 1rem 1rem;
+}
+.leftside--image {
+  max-width: 100%;
+  max-height: 700px;
+}
+
+.product__rightside {
+  max-width: 30%;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 0px rgba(66, 68, 90, 0.28);
+  margin: 1rem;
+}
+
+.rightside--price {
+  border-bottom: 1px solid lightgrey;
+  margin: 0 1rem;
+  text-align: left;
+}
+.price {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.price--description {
+  font-size: 0.9rem;
+}
+.description--moreinfo {
+  color: #167175;
+  font-weight: 700;
+}
+.rightside--customersecurity {
+  margin: 0 1rem;
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+}
+.customersecurity {
+  display: flex;
+  align-items: center;
+}
+.customersecurity--logo {
+  width: 45px;
+  height: 45px;
+  margin-right: 0.5rem;
+}
+.logo--description {
+  font-size: 0.9rem;
+}
+.logo--price {
+  color: grey;
+}
+.customersecurity--description {
+  text-align: left;
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+.description--info,
+.description--return {
+  color: #167175;
+}
+.rightside--shipment {
+  border-bottom: 1px solid lightgrey;
+  margin: 0 1rem;
+  padding: 0.5rem 0;
+}
+
+.shipment--logo {
+  max-width: 10%;
+  margin-right: 0.5rem;
+}
+
+.rightside--shipment table {
+  text-align: left;
+}
+.shipment--price {
+  text-align: right;
+}
+.shipment--name {
+  display: flex;
+}
+.rightside--product--table {
+  margin: 1rem;
+  text-align: left;
+  font-size: 0.8rem;
+  color: rgb(117, 116, 116);
+  width: 100%;
+  font-weight: 450;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgrey;
+}
+.table--desc {
+  max-width: 40%;
+  width: 100%;
+}
+.table--info {
+  max-width: 40%;
+  width: 100%;
+}
+.table--ext {
+  max-width: 20%;
+  width: 100%;
+}
+
+.rightside--description {
+  text-align: left;
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  color: grey;
+  padding-bottom: 2rem;
+}
+.description--favourite {
+  border: 1px solid grey;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}

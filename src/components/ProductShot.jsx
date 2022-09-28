@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "../axios.js";
 import "../styles/ProductShot.css";
 import Product from "./Product.jsx";
+import { Link } from "react-router-dom";
 
 function ProductShot({ request }) {
   const [product, setProduct] = useState([]);
