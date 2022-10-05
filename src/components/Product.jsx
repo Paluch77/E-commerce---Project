@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Product({ product }) {
   return (
-    <Link className="dupa" to={"product/" + product.id}>
+    <Link className="link__wrapper" to={"product/" + product.id}>
       <div className="product" key={product.id}>
         <header className="product__header">
           <img

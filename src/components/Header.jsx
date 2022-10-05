@@ -3,7 +3,7 @@ import "../styles/Header.css";
 import logo from "../logos/vinted.jpeg";
 import "font-awesome/css/font-awesome.min.css";
 import RegisterButton from "./RegisterButton";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function Header() {
   const [choice, setChoice] = useState("");
@@ -58,7 +58,9 @@ function Header() {
       {/* LOGIN/LOGOUT BUTTON */}
       <div className="header--buttons">
         <RegisterButton></RegisterButton>
-        <a className="button--sell">Sprzedaj</a>
+        <Link className="wrapper__button" to="/item/new">
+          <button className="button--sell">Sprzedaj</button>
+        </Link>
       </div>
       {/* SELL BUTTON */}
       {/* LANGUAGE */}

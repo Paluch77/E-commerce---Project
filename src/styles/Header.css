@@ -4,13 +4,13 @@
   height: 70px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header--img {
   width: 8rem;
   max-width: 8rem;
   height: auto;
-  margin-left: 5rem;
 }
 
 .header__searchBar {
@@ -99,6 +99,9 @@ textarea {
   display: flex;
   align-items: center;
 }
+.wrapper__button {
+  text-decoration: none;
+}
 
 .button--sell {
   font-size: 13px;
@@ -107,6 +110,8 @@ textarea {
   color: white;
   background-color: #167175;
   transition: all 0.5s;
+  text-decoration: none;
+  border: none;
 }
 .button--sell:hover {
   border: 1px solid #167175;

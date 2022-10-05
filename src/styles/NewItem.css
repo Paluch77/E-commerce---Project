@@ -1,0 +1,112 @@
+.site {
+  background-color: rgb(237, 237, 237);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+.new__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new__item h2 {
+  font-weight: 500;
+}
+
+.item--title {
+  margin-top: 2rem;
+  width: 75%;
+  text-align: left;
+}
+
+.item--form {
+  max-width: 75%;
+  width: 100%;
+  height: auto;
+}
+.form--input--photo {
+  background-color: white;
+  height: auto;
+  box-shadow: 0px 0px 12px 0px rgba(66, 68, 90, 0.28);
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form--input--photo p {
+  margin-right: auto;
+  padding: 0.5rem 2rem;
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.photo--button--wrapper {
+  border: 1px dashed grey;
+  height: 20vh;
+  display: flex;
+  width: 95%;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+.photo--button {
+  padding: 1rem 2rem;
+  border: 1px solid #167175;
+  width: fit-content;
+  height: fit-content;
+  color: #167175;
+  border-radius: 5px;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photo--input {
+  display: none;
+}
+.photo--div {
+  max-width: 20%;
+  width: 100%;
+
+  height: 100%;
+}
+
+.input--photo {
+  position: absolute;
+  margin-right: auto;
+  max-width: 20%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.photo--buttons {
+  min-width: 25%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.x-logo,
+.rotate-logo {
+  width: 2vh;
+  margin: 0.3rem;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 2;
+  padding: 0.5rem;
+}
+.x-logo {
+}
+
+.rotate-logo {
+}

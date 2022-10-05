@@ -26,6 +26,7 @@
   backdrop-filter: blur(10px) opacity(1);
 }
 .register--window {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
