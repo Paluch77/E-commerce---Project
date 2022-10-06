@@ -65,6 +65,20 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: block;
+}
+
+.photo--button--plus {
+  display: none;
+  font-size: 2rem;
+  border: 1px solid #167175;
+  width: fit-content;
+  height: fit-content;
+  color: #167175;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  line-height: fit-content;
+  margin: auto 1rem;
 }
 
 .photo--input {
@@ -105,8 +119,7 @@
   z-index: 2;
   padding: 0.5rem;
 }
-.x-logo {
-}
 
-.rotate-logo {
+.rotateimg90 {
+  -webkit-transform: rotate(90deg);
 }
